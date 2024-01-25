@@ -1,0 +1,125 @@
+/* 4em
+5em
+7em */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Unicode';
+}
+
+
+#mainWindow{
+    width: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainTitleArea{
+    width: 100vw;
+    height: 15vh;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    background-color: aqua;
+}
+
+.bottomArea{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.sideMenu{
+    width: 15vw;
+    height: 85vh;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    background-color: yellow;
+}
+
+.contentArea{
+    width: 85vw;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: brown;
+    /* overflow: auto; */
+}
+
+#mainTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainTitle1{
+    font-size: 2.5em;
+    color: green;
+    padding: 0.25em;
+}
+
+.mainTitle2{
+    font-size: 2.5em;
+    color: rgb(206, 115, 62);
+    padding: 0.25em;
+}
+
+#listBox{
+    margin-left: 4em;
+    margin-top: 1em;
+    width: 100vw;
+}
+
+.mainText{
+    width: 83vw;
+    height: 70vh;
+    /* margin: 2em; */
+    margin-right: 2em;
+    /* background-color: orange; */
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0.15em;
+}
+
+.title{
+    color: rgb(111, 216, 111);
+    padding-top: 1em;
+    padding-left: 0.5em;
+    font-size: 2em;
+}
+
+.line{
+    margin-left: 1.1em;
+    width: 80vw;
+    /* height: 1vh; */
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 0.1em;
+}
+
+#articleIntro{
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.subTitle{
+    color: orange;
+    font-size: 1.5em;
+}
+
+.articleBox{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.articleText{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
