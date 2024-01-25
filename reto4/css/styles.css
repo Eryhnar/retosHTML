@@ -1,0 +1,75 @@
+/* *{
+    font-size: 2em;
+} */
+#platoDeLaSemana{
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: bold;
+    background-color: rgb(235, 235, 18);
+}
+#descripcionGeneralBox > div{
+    margin-bottom: 0.5em;
+    /* font-size: 1em; */
+}
+#nombrePlato{
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: rgb(82, 144, 168);
+    /* font-family:'Courier New', Courier, monospace; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: sans-serif; */
+    /* font-family: serif; */
+    font-style: italic;
+}
+#ingredientesTitulo{
+    margin-top: 0.5em;
+    color: rgb(18, 66, 85);
+    font-weight: bolder;
+    font-size: 2em;
+}
+#ingredientesBox {
+    margin-bottom: 1em;
+}
+#ingredientesLista{
+    margin: 1em;
+}
+#preparacion{
+    margin-bottom: 0.5em;
+    color: rgb(18, 66, 85);
+    font-weight: bolder;
+    font-size: 2em;
+}
+#comensalesBox{
+    display: flex;
+}
+#comensalesText{
+    color: rgb(102, 93, 93);
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+#tiempoPreparacionBox{
+    display: flex;
+}
+#tiempoPreparacionText{
+    color: rgb(102, 93, 93);
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+#tiempoCoccionBox{
+    display: flex;
+}
+#tiempoCoccionText{
+    color: rgb(102, 93, 93);
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 0.5em;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Brush script MT";
+    src: url("../fonts/BrushScriptStd.otf") format("opentype");
+}
+
+.titulo{
+    font-family: "Brush script MT";
+    font-weight: lighter;
+}

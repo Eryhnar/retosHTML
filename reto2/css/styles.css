@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(61, 61, 61);
+}
+
+#titulo1{
+    color: white;
+    font-size: 5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#parrafo1{
+    color: white;
+    font-size: 2em;
+    font-family:'Courier New', Courier, monospace;
+}
